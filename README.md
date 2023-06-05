@@ -29,6 +29,7 @@ Our API will be served directly from our container using Flask, a popular Python
 
 By now the application code is working, We'are ready to package it as a container image and run it directly in OpenShift as a service that we will be able to call from any other application. The OpenShift Dedicated dashboard can be accessed from the application switcher in the top bar of the RHODS dashboard.
 
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.1.jpg)
 
 ## Step 5: Testing the application
 
