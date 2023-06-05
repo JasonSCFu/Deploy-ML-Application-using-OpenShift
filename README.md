@@ -3,19 +3,19 @@ ML Ops | Flask API | OpenShift | Model deployment
 
 
 
-Step 1: Create a simple NLP model using  01-Create-Claims-Classification.ipynb
+## Step 1: Create a simple NLP model using  01-Create-Claims-Classification.ipynb
 
-Step 2: Exposing the model as an API
+## Step 2: Exposing the model as an API
 
 In the previous section, we learned how to create the code that classifies a repair based on the free text we enter. But we can't use a notebook directly like this in a production environment. So now we will learn how to package this code as an API that you can directly query from other applications.
 
 Some explanations first:
 
-The code that we wrote in the notebook has been repackaged as a single Python file, prediction.py. Basically, the file combines the code in all the cells of the notebook.
-To use this code as a function you can call, we added a function called predict that takes a string as an input, classifies the repair, and sends back the resulting classification. Open the file directly in JupyterLab, and you should recognize our previous code along with this new additional function.
-There are other files in the folder that provide functions to launch a web server, and that we will use to serve our API.
+* The code that we wrote in the notebook has been repackaged as a single Python file, prediction.py. Basically, the file combines the code in all the cells of the notebook.
+* To use this code as a function you can call, we added a function called predict that takes a string as an input, classifies the repair, and sends back the resulting classification. Open the file directly in JupyterLab, and you should recognize our previous code along with this new additional function.
+*There are other files in the folder that provide functions to launch a web server, and that we will use to serve our API.
 
-Step 3: Test the Flask application
+## Step 3: Test the Flask application
 
 Launch the Flask API server by running 03_MBR_run_application.ipynb file.  
 
@@ -25,12 +25,12 @@ Our API will be served directly from our container using Flask, a popular Python
 
 When you execute the following cell, it will be in a permanent running state. That's normal, because the web server process will keep running. When you are finished with the test you can just select the cell and click the Stop button (next to Run)
 
-Step 4: Building the application inside OpenShift
+## Step 4: Building the application inside OpenShift
 
 By now the application code is working, We'are ready to package it as a container image and run it directly in OpenShift as a service that we will be able to call from any other application. The OpenShift Dedicated dashboard can be accessed from the application switcher in the top bar of the RHODS dashboard.
 
 
-Step 5: Testing the application
+## Step 5: Testing the application
 
 Copying and pasting the link into your browser.
 
