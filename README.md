@@ -1,11 +1,11 @@
 # Deploy-ML-Application-using-OpenShift
-ML Ops | Flask API | OpenShift | Model deployment 
+#### ML Ops | Flask API | OpenShift | Model deployment 
 
 
 
-## Step 1: Create a simple NLP model using  01-Create-Claims-Classification.ipynb
+### Step 1: Create a simple NLP model using  01-Create-Claims-Classification.ipynb
 
-## Step 2: Exposing the model as an API
+### Step 2: Exposing the model as an API
 
 In the previous section, we learned how to create the code that classifies a repair based on the free text we enter. But we can't use a notebook directly like this in a production environment. So now we will learn how to package this code as an API that you can directly query from other applications.
 
@@ -17,7 +17,7 @@ Some explanations first:
 
 *There are other files in the folder that provide functions to launch a web server, and that we will use to serve our API.
 
-## Step 3: Test the Flask application
+### Step 3: Test the Flask application
 
 Launch the Flask API server by running 03_MBR_run_application.ipynb file.  
 
@@ -25,7 +25,7 @@ Test the Flask API by running 04_MBR_test_application.ipynb.
 
 Our API will be served directly from our container using Flask, a popular Python web server.  The Flask application, which will call our prediction function, is defined in the wsgi.py file.
 
-## Step 4: Building the application inside OpenShift
+### Step 4: Building the application inside OpenShift
 
 By now the application code is working, We'are ready to package it as a container image and run it directly in OpenShift as a service that we will be able to call from any other application. Follow the steps to setup in OpenShift. The OpenShift Dedicated dashboard can be accessed from the application switcher in the top bar of the RHODS dashboard. 
 
@@ -47,8 +47,13 @@ By now the application code is working, We'are ready to package it as a containe
 
 
 
-## Step 5: Testing the application
+### Step 5: Testing the application
 
 Copying and pasting the route's link into your browser.
+
+#### cURL from a terminal session:
+
+You can use the OpenShift Web Terminal to access your service from a command line.
+In the terminal shell, enter a cURL command with sample text like, I turn the key and nothing happens. Replace the localhost in the command with the right hostname for the route, and make sure to include /prediction:
 
 
