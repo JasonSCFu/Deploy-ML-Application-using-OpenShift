@@ -1,6 +1,4 @@
-# Deploy-ML-Application-using-OpenShift
-#### ML Ops | Flask API | OpenShift | Model deployment 
-
+## Deploy-ML-Application-using-OpenShift
 
 
 ### Step 1: Create a simple NLP model using  01-Create-Claims-Classification.ipynb
@@ -53,7 +51,28 @@ Copying and pasting the route's link into your browser.
 
 #### cURL from a terminal session:
 
-You can use the OpenShift Web Terminal to access your service from a command line.
+We can use the OpenShift Web Terminal to access service from a command line.
 In the terminal shell, enter a cURL command with sample text like, I turn the key and nothing happens. Replace the localhost in the command with the right hostname for the route, and make sure to include /prediction:
 
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_10.2.png)
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_10.2.1.png)
 
+#### From Python code:
+
+Send a RESTful post request with sample text like, I turn the key and nothing happens. Replace the localhost in the command with the right hostname for the route, and make sure to include /prediction:
+
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_10.3.png)
+
+
+#### From a notebook:
+
+We can also test the REST API endpoint from a Jupyter Notebook. Open the notebook named 05_MBR_enter_repair.ipynb. In the first cell, replace the placeholders with the text.
+
+The repair text to be categorized
+The route to the service
+The repair text goes in the my_text field in the file, and the route in the my_route field, as follows:
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_10.4.png)
+
+
+Run both cells and see the result.
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_10.4.1.png)
