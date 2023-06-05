@@ -1,6 +1,7 @@
 ## Deploy-ML-Application-using-OpenShift
 
-Step by step hands-on tutorial for end-to-end ML model deployment process
+A step by step hands-on tutorial for end-to-end ML model deployment process
+
 
 ### Step 1: Create a simple NLP model using  01-Create-Claims-Classification.ipynb
 
