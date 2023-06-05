@@ -68,8 +68,10 @@ Send a RESTful post request with sample text like, I turn the key and nothing ha
 
 We can also test the REST API endpoint from a Jupyter Notebook. Open the notebook named 05_MBR_enter_repair.ipynb. In the first cell, replace the placeholders with the text.
 The repair text goes in the my_text field in the file, and the route in the my_route field, as follows:
+
 ![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_10.4.png)
 
 
 Run both cells and see the result.
+
 ![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_10.4.1.png)
