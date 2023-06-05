@@ -27,9 +27,25 @@ Our API will be served directly from our container using Flask, a popular Python
 
 ## Step 4: Building the application inside OpenShift
 
-By now the application code is working, We'are ready to package it as a container image and run it directly in OpenShift as a service that we will be able to call from any other application. The OpenShift Dedicated dashboard can be accessed from the application switcher in the top bar of the RHODS dashboard.
+By now the application code is working, We'are ready to package it as a container image and run it directly in OpenShift as a service that we will be able to call from any other application. Follow the steps to setup in OpenShift. The OpenShift Dedicated dashboard can be accessed from the application switcher in the top bar of the RHODS dashboard. 
 
 ![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.1.jpg)
+
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.2.jpg)
+
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.3.jpg)
+
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.4.jpg)
+
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.5.jpg)
+
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.6.jpg)
+
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.7.1.jpg)
+
+
+
+
 
 ## Step 5: Testing the application
 
