@@ -12,7 +12,9 @@ In the previous section, we learned how to create the code that classifies a rep
 Some explanations first:
 
 * The code that we wrote in the notebook has been repackaged as a single Python file, prediction.py. Basically, the file combines the code in all the cells of the notebook.
+
 * To use this code as a function you can call, we added a function called predict that takes a string as an input, classifies the repair, and sends back the resulting classification. Open the file directly in JupyterLab, and you should recognize our previous code along with this new additional function.
+
 *There are other files in the folder that provide functions to launch a web server, and that we will use to serve our API.
 
 ## Step 3: Test the Flask application
@@ -23,8 +25,6 @@ Test the Flask API by running 04_MBR_test_application.ipynb.
 
 Our API will be served directly from our container using Flask, a popular Python web server.  The Flask application, which will call our prediction function, is defined in the wsgi.py file.
 
-When you execute the following cell, it will be in a permanent running state. That's normal, because the web server process will keep running. When you are finished with the test you can just select the cell and click the Stop button (next to Run)
-
 ## Step 4: Building the application inside OpenShift
 
 By now the application code is working, We'are ready to package it as a container image and run it directly in OpenShift as a service that we will be able to call from any other application. The OpenShift Dedicated dashboard can be accessed from the application switcher in the top bar of the RHODS dashboard.
@@ -32,6 +32,6 @@ By now the application code is working, We'are ready to package it as a containe
 
 ## Step 5: Testing the application
 
-Copying and pasting the link into your browser.
+Copying and pasting the route's link into your browser.
 
 
