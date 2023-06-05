@@ -33,15 +33,15 @@ By now the application code is working, We'are ready to package it as a containe
 
 ![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.2.jpg)
 
-![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.3.jpg)
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.3.png)
 
-![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.4.jpg)
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.4.png)
 
-![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.5.jpg)
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.5.png)
 
-![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.6.jpg)
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.6.png)
 
-![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.7.1.jpg)
+![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_9.7.1.png)
 
 
 
