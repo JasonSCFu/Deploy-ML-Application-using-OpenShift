@@ -1,5 +1,6 @@
 ## Deploy-ML-Application-using-OpenShift
 
+Step by step hands-on tutorial for end-to-end ML model deployment process
 
 ### Step 1: Create a simple NLP model using  01-Create-Claims-Classification.ipynb
 
@@ -13,7 +14,7 @@ Some explanations first:
 
 * To use this code as a function you can call, we added a function called predict that takes a string as an input, classifies the repair, and sends back the resulting classification. Open the file directly in JupyterLab, and you should recognize our previous code along with this new additional function.
 
-*There are other files in the folder that provide functions to launch a web server, and that we will use to serve our API.
+* There are other files in the folder that provide functions to launch a web server, and that we will use to serve our API.
 
 ### Step 3: Test the Flask application
 
@@ -49,7 +50,7 @@ By now the application code is working, We'are ready to package it as a containe
 
 Copying and pasting the route's link into your browser.
 
-#### cURL from a terminal session:
+#### 5.1: cURL from a terminal session:
 
 We can use the OpenShift Web Terminal to access service from a command line.
 In the terminal shell, enter a cURL command with sample text like, I turn the key and nothing happens. Replace the localhost in the command with the right hostname for the route, and make sure to include /prediction:
@@ -57,14 +58,14 @@ In the terminal shell, enter a cURL command with sample text like, I turn the ke
 ![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_10.2.png)
 ![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_10.2.1.png)
 
-#### From Python code:
+#### 5.2: From Python code:
 
 Send a RESTful post request with sample text like, I turn the key and nothing happens. Replace the localhost in the command with the right hostname for the route, and make sure to include /prediction:
 
 ![test](https://github.com/JasonSCFu/Deploy-ML-Application-using-OpenShift/blob/main/Images/nlp_sandbox_figure_10.3.png)
 
 
-#### From a notebook:
+#### 5.3: From a notebook:
 
 We can also test the REST API endpoint from a Jupyter Notebook. Open the notebook named 05_MBR_enter_repair.ipynb. In the first cell, replace the placeholders with the text.
 The repair text goes in the my_text field in the file, and the route in the my_route field, as follows:
