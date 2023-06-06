@@ -2,6 +2,8 @@
 
 A step by step hands-on tutorial for end-to-end ML model deployment process
 
+We can use [OpenShift Sandbox](https://developers.redhat.com/developer-sandbox/activities/use-rhods-to-master-nlp) to run this tutorial
+
 
 ### Step 1: Create a simple NLP model using  01-Create-Claims-Classification.ipynb
 
